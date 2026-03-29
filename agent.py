@@ -5,7 +5,7 @@ class Agent:
 
     def __init__(self, registry, memory):
         self.client = genai.Client(
-            api_key=os.getenv("AIzaSyDbRgRNAOuZbaKu3UbCha5IuVQYESJ2p4w")
+            api_key=os.getenv("GEMINI_API_KEY")
         )
 
         self.registry = registry
